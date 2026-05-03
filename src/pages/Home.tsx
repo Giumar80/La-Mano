@@ -109,7 +109,7 @@ export default function Home() {
             <div className="flex items-center gap-3 cursor-pointer group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               {/* Custom Logo Replacement: The uploaded logo */}
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden transition-all duration-300 logo-hover-effect">
-                <img src="/Logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
+                <img src="/logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-xl tracking-widest uppercase leading-none">La Mano Nera</span>
@@ -203,7 +203,7 @@ export default function Home() {
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.3 }}
           transition={{ duration: 1.5 }}
-          className="absolute inset-0 bg-[url('/Homepage.png')] bg-cover bg-center bg-no-repeat mix-blend-luminosity z-0"
+          className="absolute inset-0 bg-[url('/homepage.png')] bg-cover bg-center bg-no-repeat mix-blend-luminosity z-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-black/40 to-transparent z-0"></div>
 
@@ -220,7 +220,7 @@ export default function Home() {
               transition={{ delay: 0.4 }}
               className="w-32 h-32 md:w-48 md:h-48 bg-white rounded-full flex items-center justify-center overflow-hidden mb-8 shadow-[0_0_50px_rgba(255,255,255,0.15)] logo-hover-effect"
             >
-              <img src="/Logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
+              <img src="/logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
             </motion.div>
 
             <motion.div 
@@ -602,7 +602,7 @@ export default function Home() {
           <motion.div variants={fadeInUp} className="w-full lg:w-1/3">
             <div className="text-sm font-bold tracking-widest uppercase text-red-500 mb-6 text-center lg:text-left">Ci trovi</div>
             <div className="mx-auto lg:mx-0 mb-8 w-64 max-w-full bg-white p-6 rounded-xl flex items-center justify-center overflow-hidden border-2 border-red-600/30 shadow-[0_0_30px_rgba(220,38,38,0.3)] transition-all duration-500 group hover:border-red-500 hover:shadow-[0_0_50px_rgba(220,38,38,0.5)] cursor-pointer">
-              <img src="/Freedom.jpg" alt="Freedom Avellino Logo" className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+              <img src="/freedom.jpg" alt="Freedom Avellino Logo" className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105" />
             </div>
             <h2 className="font-display text-5xl md:text-6xl uppercase tracking-wider mb-6 text-white text-center lg:text-left">Presso <br/><span className="text-red-600">Freedom Avellino</span></h2>
             <p className="text-zinc-400 text-lg font-light leading-relaxed mb-10 text-center lg:text-left">
@@ -693,7 +693,7 @@ export default function Home() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-8 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden transition-all duration-300 logo-hover-effect">
-                <img src="/Logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <img src="/logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
               </div>
               <span className="font-display text-2xl tracking-widest uppercase text-white group-hover:text-red-400 transition-colors duration-300">La Mano Nera</span>
             </div>

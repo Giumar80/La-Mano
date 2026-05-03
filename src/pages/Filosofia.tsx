@@ -51,7 +51,7 @@ export default function Filosofia() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer group" onClick={() => navigate('/')}>
             <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center overflow-hidden transition-all duration-300 logo-hover-effect">
-              <img src="/Logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
+              <img src="/logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col">
               <span className="font-display text-xl tracking-widest uppercase leading-none">La Mano Nera</span>
@@ -214,7 +214,7 @@ export default function Filosofia() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-[#050505] z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-transparent to-[#050505] z-10"></div>
           <img 
-            src="/Filosofia.png" 
+            src="/filosofia.png" 
             alt="Filosofia e Mente MMA" 
             className="w-full h-full object-cover grayscale opacity-60"
           />
@@ -227,7 +227,7 @@ export default function Filosofia() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-8 group cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden transition-all duration-300 logo-hover-effect">
-                <img src="/Logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                <img src="/logo.jpg" alt="La Mano Nera Logo" className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
               </div>
               <span className="font-display text-2xl tracking-widest uppercase text-white group-hover:text-red-400 transition-colors duration-300">La Mano Nera</span>
             </div>
