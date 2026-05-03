@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Anton', sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes subtle-pulse {
+  0% {
+    box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+    transform: scale(1.05);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(220, 38, 38, 0.8), inset 0 0 10px rgba(220, 38, 38, 0.2);
+    transform: scale(1.1);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(220, 38, 38, 0.4);
+    transform: scale(1.05);
+  }
+}
+
+.logo-hover-effect {
+  transition: all 0.3s ease;
+}
+
+.group:hover .logo-hover-effect {
+  animation: subtle-pulse 1.5s infinite ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #050505;
+  color: #f4f4f5;
+}
