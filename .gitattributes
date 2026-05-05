@@ -1,0 +1,8 @@
+# Treat images as binary to prevent corruption
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.webp binary
