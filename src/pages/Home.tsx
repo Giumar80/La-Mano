@@ -203,7 +203,8 @@ export default function Home() {
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.3 }}
           transition={{ duration: 1.5 }}
-          className={`absolute inset-0 bg-[url('${import.meta.env.BASE_URL}homepage.png')] bg-cover bg-center bg-no-repeat mix-blend-luminosity z-0`}
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat mix-blend-luminosity z-0"
+          style={{ backgroundImage: `url('${import.meta.env.BASE_URL}homepage.png')` }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-black/40 to-transparent z-0"></div>
 
@@ -292,7 +293,10 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
-        <div className={`absolute inset-0 bg-[url('${import.meta.env.BASE_URL}gruppo1.png')] bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0`}></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0"
+          style={{ backgroundImage: `url('${import.meta.env.BASE_URL}gruppo1.png')` }}
+        ></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-[#050505] z-0"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/80 to-transparent z-0"></div>
 
@@ -330,7 +334,10 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
-        <div className={`absolute inset-0 bg-[url('${import.meta.env.BASE_URL}mentecorpo.png')] bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0`}></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0"
+          style={{ backgroundImage: `url('${import.meta.env.BASE_URL}mentecorpo.png')` }}
+        ></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/50 to-[#050505] z-0"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/50 to-transparent z-0"></div>
 
@@ -406,7 +413,10 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
-        <div className={`absolute inset-0 bg-[url('${import.meta.env.BASE_URL}sfondoorari.png')] bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0`}></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20 filter grayscale mix-blend-luminosity z-0"
+          style={{ backgroundImage: `url('${import.meta.env.BASE_URL}sfondoorari.png')` }}
+        ></div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-[#050505]/50 to-[#050505] z-0"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#050505] via-transparent to-transparent z-0"></div>
 
@@ -422,10 +432,12 @@ export default function Home() {
               Costanza e programmazione. I nostri allenamenti sono strutturati per ottimizzare il recupero e le prestazioni degli atleti.
             </p>
           </motion.div>
-
           <motion.div variants={fadeInUp} className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-br from-black to-zinc-950 border border-zinc-800 p-8 md:p-14 shadow-2xl rounded-2xl relative overflow-hidden">
-              <div className={`absolute inset-0 bg-[url('${import.meta.env.BASE_URL}sfondoorari.png')] bg-cover bg-center bg-no-repeat opacity-10 filter grayscale mix-blend-luminosity z-0`}></div>
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10 filter grayscale mix-blend-luminosity z-0"
+                style={{ backgroundImage: `url('${import.meta.env.BASE_URL}sfondoorari.png')` }}
+              ></div>
               <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 z-0"></div>
               
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 relative z-10">
@@ -475,7 +487,10 @@ export default function Home() {
         viewport={{ once: true, margin: "-100px" }}
         variants={staggerContainer}
       >
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1599058917212-97d23f698c1e?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat mix-blend-overlay opacity-10"></div>
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat mix-blend-overlay opacity-10"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1599058917212-97d23f698c1e?q=80&w=2669&auto=format&fit=crop')" }}
+        ></div>
         <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
           <motion.div variants={fadeInUp} className="w-full lg:w-5/12 text-center lg:text-left">
             <h2 className="font-display text-6xl md:text-8xl uppercase mb-8 leading-[0.9] text-white">Prenota La <br/>Prova.</h2>
