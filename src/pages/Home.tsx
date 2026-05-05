@@ -45,7 +45,7 @@ export default function Home() {
     e.preventDefault();
     const subject = encodeURIComponent(`Richiesta Lezione di Prova - ${formData.nome}`);
     const body = encodeURIComponent(`Nome: ${formData.nome}\nContatto: ${formData.contatto}\nLivello: ${formData.livello}\n\nVorrei prenotare una lezione di prova gratuita e ricevere maggiori informazioni.`);
-    window.location.href = `mailto:info@lamanoneramma.it?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:filosofia80@gmail.com?subject=${subject}&body=${body}`;
   };
 
   useEffect(() => {
@@ -515,7 +515,7 @@ export default function Home() {
                 <div className="w-10 h-10 border border-red-400 rounded-full flex items-center justify-center shrink-0">
                   <Mail size={18} />
                 </div>
-                <p className="font-light">info@lamanoneramma.it</p>
+                <p className="font-light">filosofia80@gmail.com</p>
               </div>
             </div>
           </motion.div>
