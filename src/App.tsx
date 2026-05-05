@@ -7,7 +7,7 @@ import Filosofia from './pages/Filosofia';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/La-Mano">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tecnica" element={<Tecnica />} />
